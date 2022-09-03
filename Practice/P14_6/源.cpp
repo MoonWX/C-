@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 int main()
 {
@@ -11,18 +12,18 @@ int main()
 	printf("请输入第3个数字：\n");
 	scanf_s("%d", &c);
 	d = max(a, b, c);
-	printf("max=%d", d);
+	printf("max=%d\n", d);
+	system("pause");
 	return 0;
 }
 int max(int x, int y, int z)
 {
 	int m;
-	if (x > y > z)
+	if (x > y)
 		m = x;
-	else
-		if (y > z)
-			m = y;
-		else
-			m = z;
+	else 
+		m = y;
+	if (m < z)
+		m = z;
 	return(m);
 }
