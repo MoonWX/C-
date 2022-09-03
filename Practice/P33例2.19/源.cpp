@@ -9,7 +9,7 @@ int main()
 		sign = -sign;
 		temp = sign / fenmu;
 		sum = sum + temp;
-		fenmu = fenmu + 1;
+		fenmu = fenmu++;
 	}
 	printf("%f\n", sum);
 	return 0;
