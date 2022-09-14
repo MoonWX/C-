@@ -1,0 +1,2 @@
+0, highest
+0, lastscore
