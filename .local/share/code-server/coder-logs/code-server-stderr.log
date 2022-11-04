@@ -1,7 +1,0 @@
-[16:59:40] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
-Require stack:
-- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
-- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
-- /usr/lib/code-server/out/node/util.js
-- /usr/lib/code-server/out/node/cli.js
-- /usr/lib/code-server/out/node/entry.js
