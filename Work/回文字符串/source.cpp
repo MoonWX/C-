@@ -44,6 +44,6 @@ int main()
 {
 	char s[505];
 	cin.getline(s, 505);
-	get_str(s);
+	get_str(s);//test
 	return 0;
 }
