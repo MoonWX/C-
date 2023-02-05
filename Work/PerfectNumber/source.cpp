@@ -1,22 +1,22 @@
 #include<iostream>
 using namespace std;
-int perfectNumber(int);
-int main()
+long long int perfect_number(long long int);
+auto main() -> int
 {
-	int m, n;
+	long long int m, n;
 	cout << "Please input m,n: ";
 	cin >> m >> n;
 	int cnt = 0;
 	cout << "Perfect number in [" << m << "," << n << "]:";
 	while (m <= n) {
-		if (perfectNumber(m))
+		if (perfect_number(m))
 			cout << " " << m;
 		m++;
 	}
 }
-int perfectNumber(int n)
+long long int perfect_number(long long int n)
 {
-	int i, sum = 0, ret = 0;
+	long long int i, sum = 0, ret = 0;
 	for (i = 1; i < n; i++) {
 		if (n % i == 0)sum += i;
 	}

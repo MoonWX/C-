@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerfectNumber", "Work\Perfe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "回文字符串", "Work\回文字符串\回文字符串.vcxproj", "{6ABEA336-D4B5-4557-BB16-77EDA79929E4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "写出下面程序的输出结果1", "Practice\写出下面程序的输出结果1\写出下面程序的输出结果1.vcxproj", "{1DEB4279-C09A-4F44-BA97-813169C3757C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -165,6 +167,14 @@ Global
 		{6ABEA336-D4B5-4557-BB16-77EDA79929E4}.Release|x64.Build.0 = Release|x64
 		{6ABEA336-D4B5-4557-BB16-77EDA79929E4}.Release|x86.ActiveCfg = Release|Win32
 		{6ABEA336-D4B5-4557-BB16-77EDA79929E4}.Release|x86.Build.0 = Release|Win32
+		{1DEB4279-C09A-4F44-BA97-813169C3757C}.Debug|x64.ActiveCfg = Debug|x64
+		{1DEB4279-C09A-4F44-BA97-813169C3757C}.Debug|x64.Build.0 = Debug|x64
+		{1DEB4279-C09A-4F44-BA97-813169C3757C}.Debug|x86.ActiveCfg = Debug|Win32
+		{1DEB4279-C09A-4F44-BA97-813169C3757C}.Debug|x86.Build.0 = Debug|Win32
+		{1DEB4279-C09A-4F44-BA97-813169C3757C}.Release|x64.ActiveCfg = Release|x64
+		{1DEB4279-C09A-4F44-BA97-813169C3757C}.Release|x64.Build.0 = Release|x64
+		{1DEB4279-C09A-4F44-BA97-813169C3757C}.Release|x86.ActiveCfg = Release|Win32
+		{1DEB4279-C09A-4F44-BA97-813169C3757C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -185,6 +195,7 @@ Global
 		{20939E66-F2B9-4C6A-A3A9-16C711FA59F7} = {3E615001-0945-415C-8DFD-6E1BBD3932A8}
 		{89106560-E881-4A35-9F04-B9FF82A0CC10} = {3E615001-0945-415C-8DFD-6E1BBD3932A8}
 		{6ABEA336-D4B5-4557-BB16-77EDA79929E4} = {3E615001-0945-415C-8DFD-6E1BBD3932A8}
+		{1DEB4279-C09A-4F44-BA97-813169C3757C} = {69577799-3FED-4D1D-AA3E-3159FED954E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A31806B-C5F3-4417-86F7-F692C623D3F4}
